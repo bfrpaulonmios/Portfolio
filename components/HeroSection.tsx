@@ -29,9 +29,9 @@ const HeroSection = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
                     >
-                        <p className="text-2xl text-primary-200">Hello World !</p>
-                        <p className="text-lg text-text-200">
-                        Hello World, my name is Bruno Paulon and I'm a front-end developer with a passion for technology. With more than 4 years of experience in front-end projects from conception to implementation. My goal is to create a beautiful and functional user interface. I am always open to new opportunities and challenges. Discover the power of a seamless user interface. Contact me and let's turn your ideas into reality!                        </p>
+                        <p className="text-4xl text-bg-100 py-4 text-center">Hello World !</p>
+                        <p className="text-lg text-text-200 text-justify">
+                            <strong className="text-bg-100 ">  Hello World, my name is Bruno Paulon. </strong> I'm a front-end developer with a passion for technology. With more than 4 years of experience in front-end projects from conception to implementation. My goal is to create a beautiful and functional user interface. I am always open to new opportunities and challenges. Discover the power of a seamless user interface. Contact me and let's turn your ideas into reality!                        </p>
                     </motion.div>
                     <motion.div
                         className="mb-6"
@@ -39,7 +39,7 @@ const HeroSection = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        <p className="text-2xl text-primary-200">Principais tecnologias</p>
+                        <p className="text-4xl text-bg-100 py-4 text-center">Main Technologies</p>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
                             {technologies.map((tech, index) => (
                                 <motion.div

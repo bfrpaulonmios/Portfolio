@@ -9,7 +9,8 @@
     font-family: 'Share Tech Mono', monospace;
 }
 
-.bg-gradient {
+.bg-gradient {    
     background-image: linear-gradient(to bottom right, #2C7A7B, #5fa9aa, #c3ffff);
-  }
+    background-blend-mode: color-burn;
+}
   
