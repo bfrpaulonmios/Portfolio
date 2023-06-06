@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-4 py-2 bg-bg-100">
+    <nav className="flex items-center justify-center px-4 py-2 bg-bg-100">
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-2">
           <motion.img
@@ -20,7 +20,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            BP Dev
+            
           </motion.span>
         </div>
       </div>
