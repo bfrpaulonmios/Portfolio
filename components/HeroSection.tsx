@@ -1,20 +1,23 @@
 import { motion } from "framer-motion";
 
 const technologies = [
-    { name: "React", icon: "/path/to/react-icon.png" },
-    { name: "Tailwind CSS", icon: "/path/to/tailwind-icon.png" },
-    { name: "Framer Motion", icon: "/path/to/framer-icon.png" },
-    { name: "Next.js", icon: "/path/to/nextjs-icon.png" },
-    { name: "Outra tecnologia", icon: "/path/to/other-icon.png" },
+    { name: "React JS", icon: "https://gcdnb.pbrd.co/images/BVkAXhWCrJNe.png?o=1" },
+    { name: "Next JS", icon: "/path/to/tailwind-icon.png" },
+    { name: "JavaScript", icon: "/path/to/framer-icon.png" },
+    { name: "TypeScript", icon: "/path/to/nextjs-icon.png" },
+    { name: "TailWind CSS", icon: "/path/to/other-icon.png" },
+    { name: "Frame Motion", icon: "https://github.com/Bfrpaulon/Portfolio/blob/main/icons/frame.png" },
+    { name: "Node JS", icon: "/path/to/other-icon.png" },
+    { name: "Mongo DB", icon: "/path/to/other-icon.png" },
 ];
 
 const HeroSection = () => {
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient">
-            <div className="flex flex-col md:flex-row-reverse justify-center items-center">
+        <div className="flex justify-center items-center h-full bg-gradient mx-auto">
+            <div className="flex flex-col md:flex-row-reverse justify-center items-center mx-auto">
                 <div className="md:w-1/2">
                     <motion.img
-                        src="/path/to/your/photo.jpg"
+                        src="https://gcdnb.pbrd.co/images/4ULDyrt7B8lT.png?o=1"
                         alt="Minha Foto"
                         className="w-80 rounded-full"
                         initial={{ opacity: 0, scale: 0 }}
@@ -22,7 +25,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.5 }}
                     />
                 </div>
-                <div className="md:w-1/2 mx-6">
+                <div className="md:w-1/2 mx-9">
                     <motion.div
                         className="mb-6"
                         initial={{ opacity: 0, x: -100 }}

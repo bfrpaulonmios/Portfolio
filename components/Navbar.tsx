@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-center px-4 py-2 bg-bg-100">
+    <nav className="flex items-center justify-center px-4 py-2 bg-gradient-reverse">
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-2">
           <motion.img
@@ -24,7 +24,7 @@ const Navbar = () => {
           </motion.span>
         </div>
       </div>
-      <div className="space-x-4">
+      <div className="space-x-4 text-2xl">
         <Link href="/" className="text-text-100 hover:text-text-200">
           Home
         </Link>
