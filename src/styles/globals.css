@@ -15,3 +15,8 @@
 .bg-gradient-reverse {    
     background-image: linear-gradient(to bottom left,#c3ffff , #5fa9aa, #2C7A7B);
 }
+
+
+.bg-skills {
+    background: black;
+}

@@ -13,7 +13,7 @@ const technologies = [
 
 const HeroSection = () => {
     return (
-        <div className="flex justify-center items-center h-full bg-gradient mx-auto">
+        <div className="flex justify-center items-center h-full bg-primary-300 mx-auto">
             <div className="flex flex-col md:flex-row-reverse justify-center items-center mx-auto">
                 <div className="md:w-1/2">
                     <motion.img
@@ -82,8 +82,8 @@ const HeroSection = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
                     >
-                        <p className="text-4xl text-text-200 py-4 text-center"> # Hello World #</p>
-                        <p className="text-lg text-text-200 text-justify">
+                        <p className="text-4xl text-accent-100 py-4 text-center"> # Hello World #</p>
+                        <p className="text-lg text-text-100 text-justify">
                             <strong className="text-bg-100 ">  Hey folks! My name is Bruno Paulon. </strong> I am a front-end developer with a passion for technology. With more than 4 years of experience in front-end projects from conception to implementation. My goal is to create a beautiful and functional user interface. I am always open to new opportunities and challenges. Discover the power of a seamless user interface. Contact me and lets turn your ideas into reality!</p>
                         <button className="bg-accent-100 text-white px-4 py-2 rounded mt-5 hover:bg-accent-200">
                             Contact Me →
