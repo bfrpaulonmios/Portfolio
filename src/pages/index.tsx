@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import HeroSection from "../../components/HeroSection";
-
+import SoftSkills from "../../components/SoftSkills";
 export default function Home() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Home() {
       
       <Navbar />
       <HeroSection />
+      <SoftSkills />
       <main className="text-text-100 bg-bg-100">Modern portfolio project</main>
     </>
   );
