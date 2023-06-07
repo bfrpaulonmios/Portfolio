@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <div className="md:w-1/2">
                     <motion.img
                         src="https://gcdnb.pbrd.co/images/4ULDyrt7B8lT.png?o=1"
-                        alt="Minha Foto"
+                        alt="Foto de Bruno Paulon"
                         className="w-80 rounded-full"
                         initial={{ opacity: 0, scale: 0 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -37,7 +37,7 @@ const HeroSection = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.2 }}
-                             >
+                            >
                                 <img src="https://gcdnb.pbrd.co/images/LLXh5PEPr3WK.png?o=1" alt="Resume" className="w-14 h-12 " />
                             </motion.a>
                             <motion.a
