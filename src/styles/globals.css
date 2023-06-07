@@ -8,15 +8,3 @@
 *{
     font-family: 'Share Tech Mono', monospace;
 }
-
-.bg-gradient {    
-    background-image: linear-gradient(to bottom right, #2C7A7B, #5fa9aa, #c3ffff);
-}
-.bg-gradient-reverse {    
-    background-image: linear-gradient(to bottom left,#c3ffff , #5fa9aa, #2C7A7B);
-}
-
-
-.bg-skills {
-    background: black;
-}

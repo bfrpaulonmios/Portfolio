@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <div className="md:w-1/2">
                     <motion.img
                         src="https://gcdnb.pbrd.co/images/4ULDyrt7B8lT.png?o=1"
-                        alt="Foto de Bruno Paulon"
+                        alt="Picture of Bruno Paulon"
                         className="w-80 rounded-full"
                         initial={{ opacity: 0, scale: 0 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -83,7 +83,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <p className="text-4xl text-accent-100 py-4 text-center"> # Hello World #</p>
-                        <p className="text-lg text-text-100 text-justify">
+                        <p className="text-lg text-accent-100 text-justify">
                             <strong className="text-bg-100 ">  Hey folks! My name is Bruno Paulon. </strong> I am a front-end developer with a passion for technology. With more than 4 years of experience in front-end projects from conception to implementation. My goal is to create a beautiful and functional user interface. I am always open to new opportunities and challenges. Discover the power of a seamless user interface. Contact me and lets turn your ideas into reality!</p>
                         <button className="bg-accent-100 text-white px-4 py-2 rounded mt-5 hover:bg-accent-200">
                             Contact Me →
