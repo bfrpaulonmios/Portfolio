@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-center px-4 py-2 bg-bg-100 h-14">
-      <div className="flex items-center space-x-4">
-        <div className="flex items-center space-x-2">
+    <nav className="block sm:flex items-center justify-center px-4 py-2 bg-bg-100 h-14 ">
+      <div className="flex items-center justify-center space-x-4">
+        <div className="flex-col items-center space-x-2">
           <motion.img
             src="https://gcdnb.pbrd.co/images/cFvSDR4BrTtx.png?o=1"
             alt="Logo"
@@ -24,7 +24,7 @@ const Navbar = () => {
           </motion.span>
         </div>
       </div>
-      <div className="space-x-4 text-2xl">
+      <div className="sm:flex space-x-4 text-2xl">
         <Link href="/" className="text-text-100 hover:text-text-200">
           Home
         </Link>
