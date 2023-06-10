@@ -3,6 +3,8 @@ import Navbar from "../../components/Navbar";
 import HeroSection from "../../components/HeroSection";
 import SoftSkills from "../../components/SoftSkills";
 import FeaturedProjects from "../../components/FeaturedProjects";
+import Footer from "../../components/Footer";
+
 export default function Home() {
   return (
     <>
@@ -12,12 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <Navbar />
-      <HeroSection />
-      <SoftSkills />
-      <FeaturedProjects />
-      <main className="text-text-100 bg-bg-100">Modern portfolio project</main>
+      <main>
+        <Navbar />
+        <HeroSection />
+        <SoftSkills />
+        <FeaturedProjects />
+        <Footer />
+      </main>
     </>
   );
 }
