@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="block sm:flex items-center justify-center px-4 py-5 bg-bg-100 h-14 ">
       <div className="flex items-center justify-center space-x-4  py-5">
-        <div className="flex items-center space-x-2 py-5">
+        <div className="flex items-center space-x-5 py-5">
           <motion.img
             src="https://gcdnb.pbrd.co/images/cFvSDR4BrTtx.png?o=1"
             alt="Logo"
