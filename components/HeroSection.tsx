@@ -50,11 +50,12 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <img
+                  <motion.img
                     src="https://gcdnb.pbrd.co/images/d1O0FgSl8N4B.png?o=1"
                     alt="LinkedIn"
                     className="w-6 h-6 "
                   />
+
                 </motion.a>
                 <motion.a
                   href="https:/www.github.com/bfrpaulon"
@@ -62,7 +63,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <img
+                  <motion.img
                     src="https://gcdnb.pbrd.co/images/hxdnD7KF64jq.png?o=1"
                     alt="Github"
                     className="w-6 h-6"
@@ -74,7 +75,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <img
+                  <motion.img
                     src="https://gcdnb.pbrd.co/images/UiKpFCYfLq09.png?o=1"
                     alt="Instagram"
                     className="w-6 h-6"
@@ -86,7 +87,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <img
+                  <motion.img
                     src="https://gcdnb.pbrd.co/images/QyQeL5HGFoCc.png?o=1"
                     alt="Youtube"
                     className="w-6 h-6"
