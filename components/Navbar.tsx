@@ -20,7 +20,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            
+
           </motion.span>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link href="/projects" className="text-text-100 hover:text-text-200">
           Projects
         </Link>
-        <Link href="/contact" className="text-text-100 hover:text-text-200">
+        <Link href="http://wa.me/351920276484" target="_blank" className="text-text-100 hover:text-text-200">
           Contact
         </Link>
       </div>

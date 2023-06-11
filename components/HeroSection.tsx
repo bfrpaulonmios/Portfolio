@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const technologies = [
   { name: "React JS" },
@@ -14,7 +15,7 @@ const technologies = [
 const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-full bg-bg-200 mx-auto">
+      <div className="flex justify-center items-center h-full bg-bg-200  w-full mx-auto">
         <div className="flex flex-col md:flex-row-reverse justify-center items-center mx-auto">
           <div className="md:w-1/2">
             <motion.img
@@ -38,7 +39,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <img
+                  <motion.img
                     src="https://gcdnb.pbrd.co/images/LLXh5PEPr3WK.png?o=1"
                     alt="Resume"
                     className="w-14 h-12 "
@@ -120,9 +121,9 @@ const HeroSection = () => {
                 user interface. Contact me and lets turn your ideas into
                 reality!
               </p>
-              <button className="bg-bg-100 text-accent-200 px-4 py-2 rounded mt-5 hover:bg-primary-200 hover:text-text-100">
-                Contact Me →
-              </button>
+              <a href="http://wa.me/351920276484" target="_blank" rel="noopener noreferrer"><button className="bg-bg-100 text-accent-200 px-4 py-2 rounded mt-5 hover:bg-primary-200 hover:text-text-100"> Contact me ►
+              </button></a>
+
             </motion.div>
             <motion.div
               className="mb-6"
