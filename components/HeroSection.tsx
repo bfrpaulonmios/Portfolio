@@ -21,7 +21,7 @@ const HeroSection = () => {
             <motion.img
               src="https://gcdnb.pbrd.co/images/4ULDyrt7B8lT.png?o=1"
               alt="Picture of Bruno Paulon"
-              className="w-80 rounded-full"
+              className="w-80 rounded-full blink"
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}

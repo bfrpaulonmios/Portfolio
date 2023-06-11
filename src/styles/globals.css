@@ -5,6 +5,22 @@
 @import url('https://fonts.googleapis.com/css2?family= Share +Tech+Mono & display=swap');
 
 
-*{
+* {
     font-family: 'Share Tech Mono', monospace;
+}
+
+.blink {
+    animation: blink-animation 500ms steps(5, start) infinite;
+    transition:cubic-bezier(1, 0, 0, 1);
+    -webkit-animation: blink-animation 500ms steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    from {
+        filter: drop-shadow(0 0 20px #69b4ff);
+    }
+
+    to {
+        filter: drop-shadow(0 0 10px #69b4ff);
+    }
 }
