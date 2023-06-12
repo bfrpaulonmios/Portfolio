@@ -27,6 +27,8 @@
 
 
 .bg-hero-projects{
-    background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600');
-    background-size: cover;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #8bc0f5, #0085ff, #69b4ff);
+    background-size: 100% auto;
+    background-repeat: repeat-x;
 }

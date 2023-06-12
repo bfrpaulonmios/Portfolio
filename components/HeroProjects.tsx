@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const HeroProjects = () => (
-  <div className="bg-hero-projects text-text-100 py-20">
+  <div className="bg-hero-projects text-black py-20 w-full">
     <div className="container mx-auto px-4">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
@@ -23,7 +23,7 @@ const HeroProjects = () => (
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="text-text-100 font-bold py-4 px-8 text-center text-4xl"
+        className="text-black font-bold py-4 px-8 text-center text-4xl"
       >
         'Through programming, I challenge the impossible and bring innovative ideas to life through lines of code.'
 

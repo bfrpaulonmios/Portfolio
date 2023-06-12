@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import HeroProjects from "../../components/HeroProjects"
+import HeroProjects from "../../components/HeroProjects";
+import ProjectsGallery from "../../components/ProjectsGallery";
+
 export default function Home() {
     return (
         <>
@@ -14,6 +16,7 @@ export default function Home() {
             <main>
                 <Navbar />
                 <HeroProjects />
+                <ProjectsGallery />
                 <Footer />
             </main>
         </>

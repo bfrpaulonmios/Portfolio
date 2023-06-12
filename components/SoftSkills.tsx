@@ -122,9 +122,9 @@ const SoftSkills = () => {
 
     return (
        <><div>
-            <h2 className="text-3xl pl-52 pt-11 bg-bg-300 text-primary-300 shadow-lg shadow-primary-200">{TitleSection}</h2>
+            <h2 className="text-3xl pt-11 bg-bg-300 text-primary-300 shadow-lg shadow-primary-200 text-center">{TitleSection}</h2>
         </div><div id="softSkillsSection" className="flex justify-center items-center h-full py-10 bg-bg-300">
-                <div className="max-w-screen-lg w-full mx-auto px-4">
+                <div className="w-full mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                         {skillsData.map((skill, index) => (
                             <Link
@@ -146,7 +146,7 @@ const SoftSkills = () => {
                                 >
                                     <div>
                                         <h3 className="text-lg font-semibold text-accent-100 text-center">{skill.name}</h3>
-                                        <p className="text-sm text-accent-200 text-center space-">{`${calculateExperienceInYears(skill.startYear)} of experience`}</p>
+                                        <p className="text-sm text-accent-200 text-center">{`${calculateExperienceInYears(skill.startYear)} of experience`}</p>
                                         <p className="text-sm text-accent-100 text-center">{skill.phrase}</p>
                                     </div>
                                 </motion.div>
