@@ -24,3 +24,9 @@
         filter: drop-shadow(0 0 10px #69b4ff);
     }
 }
+
+
+.bg-hero-projects{
+    background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}

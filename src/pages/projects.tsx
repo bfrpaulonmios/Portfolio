@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-
+import HeroProjects from "../../components/HeroProjects"
 export default function Home() {
     return (
         <>
@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
             <main>
                 <Navbar />
-                
+                <HeroProjects />
                 <Footer />
             </main>
         </>
