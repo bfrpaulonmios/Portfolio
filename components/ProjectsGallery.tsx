@@ -1,16 +1,8 @@
 import { motion } from "framer-motion";
 
 const projects = [
-    { id: 1, title: "Projeto 1", description: "Descrição do Projeto 1" },
-    { id: 2, title: "Projeto 2", description: "Descrição do Projeto 2" },
-    { id: 3, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 4, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 5, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 6, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 7, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 8, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 9, title: "Projeto 3", description: "Descrição do Projeto 3" },
-    { id: 10, title: "Projeto 3", description: "Descrição do Projeto 3" },
+    { id: 1, title: "Dev Wise Blog", description: "I'm currently working on developing the DevWise Blog, a React project I'm building for myself. The blog will utilize Material UI and React Spring libraries to create a modern and pleasant user experience.", image: "https://i.ibb.co/gjLCfYy/capa-projeto-dev-wise.png" },
+   
 ];
 
 const ProjectsGallery = () => {
@@ -25,13 +17,12 @@ const ProjectsGallery = () => {
                 >
                     <div className="relative">
                         <img
-                            src="https://via.placeholder.com/500"
+                            src={project.image}
                             alt={project.title}
                             className="w-full h-48 object-cover"
                         />
                         <div className="absolute bottom-0 left-0 p-4">
                             <h2 className="text-2xl font-bold text-white">{project.title}</h2>
-                            <p className="text-white">{project.description}</p>
                         </div>
                     </div>
                     <div className="bg-blue-900 text-white py-3 px-4">

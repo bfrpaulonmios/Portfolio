@@ -46,7 +46,7 @@ const HeroSection = () => {
                   />
                 </motion.a>
                 <motion.a
-                  href="https:/www.linkedin.com/in/bfrpaulon"
+                  href="https://www.linkedin.com/in/bfrpaulon/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
@@ -59,7 +59,7 @@ const HeroSection = () => {
 
                 </motion.a>
                 <motion.a
-                  href="https:/www.github.com/bfrpaulon"
+                  href="https://github.com/Bfrpaulon"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}

@@ -1,28 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Sample data for featured projects
 const projectsData = [
     {
-        name: "Project 1",
-        image: "/path/to/project1-image.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        website: "https://www.example.com/project1",
-    },
-    {
-        name: "Project 2",
-        image: "/path/to/project2-image.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        technologies: ["React", "Node.js", "MongoDB"],
-        website: "https://www.example.com/project2",
-    },
-    {
-        name: "Project 3",
-        image: "/path/to/project3-image.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        technologies: ["Python", "Django", "PostgreSQL"],
-        website: "https://www.example.com/project3",
+        name: "Dev Wise Blog",
+        image: "https://i.ibb.co/gjLCfYy/capa-projeto-dev-wise.png",
+        description: "I'm currently working on developing the DevWise Blog, a React project I'm building for myself. The blog will utilize Material UI and React Spring libraries to create a modern and pleasant user experience.",
+        technologies: ["React", "JavaScript", "Material UI", "React Spring", "TailWind CSS", "React Spring"],
+        website: "https://dev-wise-bruno.vercel.app/",
     },
 ];
 

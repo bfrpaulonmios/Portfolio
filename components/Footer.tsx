@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="flex space-x-4">
                             <motion.a
                                 className="text-accent-100 text-3xl hover:text-gray-300"
-                                href="https:/www.github.com/bfrpaulon"
+                                href="https://github.com/Bfrpaulon"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.2 }}
@@ -18,7 +18,7 @@ const Footer = () => {
                             </motion.a>
                             <motion.a
                                 className="text-accent-100 text-3xl hover:text-gray-300"
-                                href="https:/www.linkedin.com/in/bfrpaulon"
+                                href="https://www.linkedin.com/in/bfrpaulon/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.2 }}
