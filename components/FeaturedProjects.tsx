@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const projectsData = [
     {
         name: "Dev Wise Blog",
@@ -28,7 +28,7 @@ const FeaturedProjects = () => {
                         whileHover={{ scale: 1.1 }}
                     >
                         <div className="md:col-span-1">
-                            <img
+                            <Image
                                 src={project.image}
                                 alt={project.name}
                                 className="w-full h-full object-cover rounded-lg"

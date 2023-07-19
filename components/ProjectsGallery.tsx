@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const projects = [
     { id: 1, title: "Dev Wise Blog", description: "I'm currently working on developing the DevWise Blog, a React project I'm building for myself. The blog will utilize Material UI and React Spring libraries to create a modern and pleasant user experience.", image: "https://i.ibb.co/gjLCfYy/capa-projeto-dev-wise.png" },
    
@@ -16,7 +16,7 @@ const ProjectsGallery = () => {
                     whileTap={{ scale: 0.95 }}
                 >
                     <div className="relative">
-                        <img
+                        <Image
                             src={project.image}
                             alt={project.title}
                             className="w-full h-48 object-cover"
