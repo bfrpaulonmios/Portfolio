@@ -1,6 +1,7 @@
 import { ThemeProvider } from '@mui/material/styles';
-import theme from './customTheme';
+import theme from '../public/customTheme';
 import HomePage from './HomePage';
+import './global.css'
 
 function MyApp( ) {
   return (
