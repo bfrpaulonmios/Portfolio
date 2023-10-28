@@ -11,7 +11,7 @@ const ContainerAsideBar = styled.div`
   align-items: center;
   height: 100vh;
   background-color: ${customTheme.palette.background.paper};
-  position: relative;
+  position: sticky;
   box-shadow: 0 0 10px ${customTheme.palette.secondary.main};
 
   /* Animação da sombra */
