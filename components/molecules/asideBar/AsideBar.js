@@ -25,7 +25,7 @@ const ContainerAsideBar = styled.div`
 const AsideBar = () => {
   return (
     <ContainerAsideBar >
-        <Logo />
+      <Logo />
     </ContainerAsideBar>
   )
 }
