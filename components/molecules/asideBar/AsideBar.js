@@ -2,19 +2,18 @@ import React from 'react'
 import styled from 'styled-components';
 import customTheme from '@/public/customTheme';
 import { Logo } from '@/components/atoms/logo/Logo'
+import Navbar from '@/components/atoms/nav/NavBar';
 
 const ContainerAsideBar = styled.div`
   width: 20vw;
   gap: 5px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
   background-color: ${customTheme.palette.background.paper};
   position: sticky;
   box-shadow: 0 0 10px ${customTheme.palette.secondary.main};
-
-  /* Animação da sombra */
   transition: box-shadow 0.3s ease-in-out;
   &:hover {
     box-shadow: 10px 0 15px ${customTheme.palette.secondary.dark};
@@ -26,6 +25,7 @@ const AsideBar = () => {
   return (
     <ContainerAsideBar >
       <Logo />
+      <Navbar />
     </ContainerAsideBar>
   )
 }

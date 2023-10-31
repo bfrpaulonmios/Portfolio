@@ -20,25 +20,13 @@ const ContainerMain = styled.div`
     box-shadow: 0 0 25px ${customTheme.palette.secondary.dark};
     transition: box-shadow 0.3s ease-in-out;
   }
-`;
-const bg = {
-  zIndex: -1,
-  width: '100%',
-  height: '100%',
-  position: 'absolute',
-  top: 0,
-  left: 0,
-  objectFit: 'cover',
-}
+  `
 export default function HomePage() {
 
   return (
     <HomePageContainer>
       <AsideBar />
       <ContainerMain>
-        <video autoPlay loop muted style={bg}>
-          <source src="/background.mp4" type="video/mp4" />
-        </video>
         <SectionHero />
       </ContainerMain>
     </HomePageContainer>

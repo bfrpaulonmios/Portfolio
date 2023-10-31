@@ -42,7 +42,8 @@ export default function TextAnimatedSectionHero() {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                style={{ fontSize: '1em' }}
+                style={{ fontSize: '55px', color: 'white' , fontWeight: 'bold'}}
+                
             >
                 {words[currentWord]}
             </motion.h1>
